@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page | Team - 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sign Up</h1>
+    <div class="form-container">
+      <div class="name-container">
+        <label for="name">Name: </label>
+        <div>
+          <input type="text" name="name" id="name">
+        </div>
+      </div>
+      <div class="email-container">
+        <label for="email">Email: </label>
+        <div>
+          <input type="email" name="email" id="email">
+        </div>
+      </div>
+      <div class="password-container">
+        <label for="password">Password: </label>
+        <div>
+          <input type="password" name="password" id="password">
+        </div>
+        <div class="about-pass">
+          <p>Password should be 8-20 characters long and should contains: </p>
+          <ul>
+            <li>uppcase letters: A-Z</li>
+            <li>lowercase letters: a-z</li>
+            <li>numbers: 0-9</li>
+            <li>symbols: `~!@#$%^&*()_+-={}|[]\:";'<>?,./</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="btn-container">
+      <button id="signup-btn">Sign Up</button>
+    </div>
+
+    <hr>
+
+    <div class="new-page">
+      <h6>Already have account <span><a id="login-link" href="login_page.html">log in</a></span></h6>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

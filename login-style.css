@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: url('image/img-2.jpg');
+    background-repeat: no-repeat;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: white;
+    width: 28vw;
+    min-height: 40vh;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.9;
+}
+
+h1 {
+    margin-right: 70%;
+    font-weight: 300;
+    font-size: 23px;
+    margin-top: 4%;
+}
+
+.form-container {
+    margin: 10px;
+}
+
+.form-container input {
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 3px;
+    width: 17vw;
+    height: 34px;
+    font-size: 17px;
+}
+
+.form-container .email-container {
+    margin-bottom: 13px;
+}
+
+.form-container .password-container {
+    margin-bottom: 13px;
+}
+
+
+
+#signup-btn {
+    padding: 6px 34px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(21, 242, 180);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#signup-btn:hover {
+    background-color: rgb(92, 212, 178);;
+}
+
+hr {
+    width: 10vw;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-size: 13px;
+}
